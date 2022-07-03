@@ -26,7 +26,7 @@ namespace ApiEmployee3.Controllers
                 {
                     return Ok(result);
                 }
-                return NotFound();
+                return NotFound("No employee with that name./ Нема вработен со тоа име");
             }
             catch (Exception)
             {
